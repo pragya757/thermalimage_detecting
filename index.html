@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7th Sense - Thermal Disease Detection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="header-content">
+        <h1>7th Sense</h1>
+        <p>Detect diseases using thermal camera imaging</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="action-buttons">
+        <button id="open-webcam" class="btn primary-btn">Open Webcam</button>
+        <button id="capture-image" class="btn secondary-btn">Capture Image</button>
+        <button id="diseases-list" class="btn tertiary-btn">Diseases List</button>
+      </section>
+
+      <section class="info-section">
+        <h2>About 7th Sense</h2>
+        <p>This website utilizes a thermal camera to detect diseases like COVID-19, Influenza, and more. Click "Capture Image" to start the disease detection process.</p>
+      </section>
+
+      <section class="example-section">
+        <h2>Example of Detection</h2>
+        <img src="ritwik.jpg" alt="Thermal Detection Example" class="example-image" />
+      </section>
+
+      <section class="diseases-list-section" id="disease-list-section">
+        <h3>Diseases Detected</h3>
+        <ul>
+          <li>COVID-19</li>
+          <li>Fever</li>
+          <li>Influenza</li>
+          <li>Other Heat-Related Conditions</li>
+        </ul>
+      </section>
+
+      <section class="webcam-preview" id="webcam-preview">
+        <video id="webcam" autoplay></video>
+        <canvas id="canvas" style="display:none"></canvas>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 7th Sense | Detecting diseases through thermal imaging</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

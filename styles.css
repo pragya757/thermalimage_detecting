@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1c1c1c, #333333); /* Dark gradient background */
+  color: #f1f1f1;  /* Light text for contrast */
+  line-height: 1.6;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(135deg, #4A90E2, #50E3C2);
+  padding: 50px;
+  color: white;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.5rem;
+}
+
+.action-buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+
+.primary-btn {
+  background-color: #4A90E2;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: #357ABD;
+}
+
+.secondary-btn {
+  background-color: #50E3C2;
+  color: white;
+}
+
+.secondary-btn:hover {
+  background-color: #2B9F92;
+}
+
+.tertiary-btn {
+  background-color: #f39c12;
+  color: white;
+}
+
+.tertiary-btn:hover {
+  background-color: #e67e22;
+}
+
+.info-section, .example-section, .diseases-list-section {
+  margin-top: 40px;
+}
+
+.info-section h2, .example-section h2, .diseases-list-section h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.example-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.diseases-list-section ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.diseases-list-section li {
+  margin: 10px 0;
+}
+
+.webcam-preview {
+  margin-top: 40px;
+  display: none;
+}
+
+video {
+  width: 80%;
+  max-width: 500px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
